@@ -123,3 +123,14 @@
     font-weight: 600;
     margin-top: 23px;
 }
+
+/* TimeCount */
+.super-ddcvl-tmmcnt-bbox-c.text-center span {
+    color: #fff;
+    font-weight: 700;
+    font-size: 11px;
+}
+.super-ddcvl-tmmcnt-bbox-c.text-center {
+    margin-top: 20px;
+}
+/* TimeCount */

@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import {Link} from 'react-router-dom';
-import './usepointssec.css'
+import './usepointssec.css';
+import TimeCount from '../timecounter/TimeCount.js'
 
 class UsePointsSec extends Component {
     render() {
@@ -27,7 +28,10 @@ class UsePointsSec extends Component {
                                                 <div className="col-md-6 col-6">
                                                     <div className="use-points-single-itmm-mn-right-ttxtec">
                                                         <div className="use-points-single-itmm-mn-right-ttxtec-time-count">
-                                                            <p>END IN <span>12D : 07H : 45M : 39S</span></p>
+                                                            <ul>
+                                                                <li className="useppntx-uend-yttx">END IN </li>
+                                                                <li> <TimeCount/></li>
+                                                            </ul>
                                                         </div>
                                                         <div className="use-points-single-itmm-mn-right-ttxtec-prod-detlx-and-slider">
                                                             <p>Product details text here, product details text...</p>
@@ -67,7 +71,10 @@ class UsePointsSec extends Component {
                                                 <div className="col-md-6 col-6">
                                                     <div className="use-points-single-itmm-mn-right-ttxtec">
                                                         <div className="use-points-single-itmm-mn-right-ttxtec-time-count">
-                                                            <p>END IN <span>12D : 07H : 45M : 39S</span></p>
+                                                            <ul>
+                                                                <li className="useppntx-uend-yttx">END IN </li>
+                                                                <li> <TimeCount/></li>
+                                                            </ul>
                                                         </div>
                                                         <div className="use-points-single-itmm-mn-right-ttxtec-prod-detlx-and-slider">
                                                             <p>Product details text here, product details text...</p>
@@ -107,7 +114,10 @@ class UsePointsSec extends Component {
                                                 <div className="col-md-6 col-6">
                                                     <div className="use-points-single-itmm-mn-right-ttxtec">
                                                         <div className="use-points-single-itmm-mn-right-ttxtec-time-count">
-                                                            <p>END IN <span>12D : 07H : 45M : 39S</span></p>
+                                                            <ul>
+                                                                <li className="useppntx-uend-yttx">END IN </li>
+                                                                <li> <TimeCount/></li>
+                                                            </ul>
                                                         </div>
                                                         <div className="use-points-single-itmm-mn-right-ttxtec-prod-detlx-and-slider">
                                                             <p>Product details text here, product details text...</p>

@@ -35,6 +35,24 @@
     color: #545454;
     font-size: 12px;
 }
+li.useppntx-uend-yttx {
+    color: #F53434;
+    font-size: 9px;
+    font-weight: 700;
+    margin-right: 5px;
+}
+
+
+.use-points-single-itmm-mn-right-ttxtec-time-count ul {
+    list-style: none;
+    padding: 0px;
+    margin-top: -8px;
+}
+.use-points-single-itmm-mn-right-ttxtec-time-count ul li {
+    display: inline-block;
+    font-size: 9px;
+    font-weight: 700;
+}
 
 
 .use-points-single-itemx-main-box {

@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import {Link} from 'react-router-dom';
-import './superdealsec.css'
+import './superdealsec.css';
+import TimeCountBox from '../timecounter/TimeCountBox.js';
 
 class SuperDealSec extends Component {
     render() {
@@ -22,6 +23,9 @@ class SuperDealSec extends Component {
                                                 <div className="super-deal-mobile-cattfg-box-overlay-icon text-center">
                                                     <p><i className="fa fa-shopping-cart"></i></p>
                                                     <h3>Super <br/> Deals</h3>
+                                                </div>
+                                                <div className="super-ddcvl-tmmcnt-bbox-c text-center">
+                                                    <TimeCountBox/>
                                                 </div>
                                             </div>
                                         </div>
